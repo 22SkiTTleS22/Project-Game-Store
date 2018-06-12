@@ -10,7 +10,7 @@ namespace Data_Access_Layer.Entities
         [HiddenInput(DisplayValue = false)]
         public int GameId { get; set; }
         [Display(Name = "Название")]
-        [Required(ErrorMessage = "Пожалуйста, введите название игра")]
+        [Required(ErrorMessage = "Пожалуйста, введите название игры")]
         public String Name { get; set; }
         [Display(Name = "Описание")]
         [Required(ErrorMessage = "Пожалуйста, введите описание игры")]
